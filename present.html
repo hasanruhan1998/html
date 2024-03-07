@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">increament</label>
+<input type="text">  <br> 
+
+<label for="">dicrement</label>
+<input type="text"> <br>
+
+<input type="submit" value="Sun" onclick="doSum()">
+  <script>
+    function doSum(){
+
+        let increament=document.getElementById('increament').value;
+        let dicrement=document.getElementById('dicrement').value;
+
+        let increament1=parseFloat(increament);
+        let dicrement2=parseFloat(dicrement);
+
+
+
+        let result=increament+dicrement;
+        document.write(result);
+
+    }
+
+
+  </script>
+
+
+</body>
+</html>
